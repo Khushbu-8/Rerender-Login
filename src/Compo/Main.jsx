@@ -9,9 +9,9 @@
     )
  }
 
- const Dashṣoard = () =>{
+ const Dashboard = () =>{
     return(
         <h1>dashboard page</h1>
     )
  }
- export {LoginPage,Dashboard}
+ export {LoginPage, Dashboard}
