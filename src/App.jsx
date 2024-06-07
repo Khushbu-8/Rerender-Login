@@ -23,7 +23,7 @@ function App() {
           <>
             <div align="center" className="log shadow">
               <Dashboard />
-              <button onClick={() => SignOut()}class="button login-submit" >
+              <button onClick={() => SignOut()} class="button login-submit" >
                         <span class="button__text">LogOut</span>
                       </button>
               {/* <button onClick={() => SignOut()}>LogOut</button> */}
@@ -45,7 +45,7 @@ function App() {
           <i className="login__icon fas fa-lock" />
           <input type="password" className="login__input" placeholder="Password" />
         </div>
-        <button onclick="{() => logIn()}" class="button login__submit" >
+        <button onClick={() => logIn()} class="button login__submit" >
           <span className="button__text">Log In Now</span>
         </button>
       </form>
